@@ -14,7 +14,7 @@
   users.users.langsjo = {
     isNormalUser = true;
     description = "Roy Långsjö";
-    extraGroups = [ "networkmanager" "wheel" "video" ];
+    extraGroups = [ "networkmanager" "wheel" "video" "docker" ];
     packages = with pkgs;[
       telegram-desktop
       rofi-screenshot
