@@ -1,7 +1,7 @@
 { ... }: {
   programs.git = {
     enable = true;
-    userName = "Roy Långsjö";
+    userName = "langsjo";
     userEmail = "roylangsjo@gmail.com";
 
     aliases = {
@@ -17,6 +17,7 @@
 
     includes = [
       {
+        contents.user.name = "Roy Långsjö";
         contents.user.email = "roy.langsjo@aalto.fi";
         condition = "gitdir:~/Kurssit/**";
       }
